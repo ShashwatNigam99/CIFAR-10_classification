@@ -10,9 +10,11 @@ The error resulting from representing images of each category using these vector
 ![](./rep_error.png)
 
 ### Similarity of classes
+
 #### Distance between means
 The similarity of 2 classes can be computed by calculating the distance between their mean images.
 More distance corresponds to lesser similarity and vice versa. Distance function used : 2-norm.
+Here is the matrix for the similarity scores of the 10 classes:
 ![](./similarity_matrix.png)
 
 #### Similarity through representational measures
